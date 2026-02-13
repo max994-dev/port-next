@@ -73,14 +73,14 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
+                                I&apos;m a full stack web developer dedicated to
+                                turning ideas into creative, AI-powered solutions. I
                                 specialize in creating seamless and intuitive
                                 user experiences.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
                                 My approach focuses on creating scalable,
-                                high-performing solutions tailored to both user
+                                high-performing, AI-powered, and responsive solutions for both user
                                 needs and business objectives. By prioritizing
                                 performance, accessibility, and responsiveness,
                                 I strive to deliver experiences that not only
