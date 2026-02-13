@@ -6,6 +6,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import React from 'react';
+import { ArrowRightIcon } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -63,7 +64,7 @@ const Banner = () => {
                         className="mt-9 banner-button slide-up-and-fade"
                     >
                         Contact Me
-                        
+                        <ArrowRightIcon className="w-4 h-4" />
                     </Button>
                 </div>
 
