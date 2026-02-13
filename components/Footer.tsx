@@ -47,7 +47,7 @@ const Footer = async () => {
                         </div>
                     </a>
 
-                    {/* Note: If you are not Tajmirul, use this copyright message instead */}
+                    {/* Note: If you are not Maksym, use this copyright message instead */}
                     {/* <a href='https://www.me.toinfinite.dev/' className="leading-none text-muted-foreground hover:underline hover:text-white">
                         Design & built by Maksym Bondarenko <br />
                         Revised by YOUR NAME
