@@ -187,8 +187,12 @@ export const PROJECTS: IProject[] = [
         liveUrl: 'https://crenotive.netlify.app/',
         year: 2023,
         description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
+            'I developed Crenotive, a portfolio website using PHP, Laravel, Horizon, MySQL, and Redis to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
+        role: `As the full-stack developer, I: <br/>
+        - Built the frontend from scratch using PHP, Laravel, Horizon, MySQL, and Redis.<br/>
+        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
+        - Integrated multi-language support with React i18n, including RTL handling.<br/>
+        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
     },
     {
         title: 'Epikcart',
