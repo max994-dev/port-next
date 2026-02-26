@@ -172,6 +172,24 @@ export const PROJECTS: IProject[] = [
         ],
     },
     {
+        title: 'Consulting Finance',
+        slug: 'crenotive',
+        techStack: ['PHP', 'Laravel', 'Horizon', 'MySQL', 'Redis'],
+        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
+        longThumbnail: '/projects/long/consulting-finance.jpg',
+        images: [
+            '/projects/images/consulting-finance-1.png',
+            '/projects/images/consulting-finance-2.png',
+            '/projects/images/consulting-finance-3.png',
+        ],
+        sourceCode: 'https://github.com/max994-dev/crenotive',
+        liveUrl: 'https://crenotive.netlify.app/',
+        year: 2023,
+        description:
+            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
+        role: ``,
+    },
+    {
         title: 'Epikcart',
         slug: 'epikcart',
         techStack: [
@@ -254,24 +272,7 @@ export const PROJECTS: IProject[] = [
         - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
         - Enhanced user interaction with animations and transitions using Framer Motion.`,
     },
-    {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/max994-dev/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
-    },
+    
     {
         title: 'devLinks',
         slug: 'devLinks',
@@ -295,9 +296,14 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Senior Full Stack Developer)',
+        title: 'Senior Full Stack Developer',
         company: 'Pleo',
-        duration: 'April 2023 - June 2024',
+        duration: 'August 2024 - June 2025',
+    },
+    {
+        title: 'Senior PHP/Laravel Engineer',
+        company: 'Spatie',
+        duration: 'May 2022 - February 2024',
     },
     {
         title: 'Backend Developer',
