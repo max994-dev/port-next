@@ -25,7 +25,7 @@ export const MY_STACK = {
         },
         {
             name: 'Laravel',
-            icon: '/logo/laravel.png',
+            icon: '/logo/laravel.svg',
         },
         {
             name: 'Horizon',
@@ -95,7 +95,7 @@ export const MY_STACK = {
         },
         {
             name: 'Redis',
-            icon: '/logo/redis.png',
+            icon: '/logo/redis.svg',
         },
         {
             name: 'Prisma',
