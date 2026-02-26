@@ -189,7 +189,7 @@ export const PROJECTS: IProject[] = [
         description:
             'I developed Crenotive, a portfolio website using PHP, Laravel, Horizon, MySQL, and Redis to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
         role: `As the full-stack developer, I: <br/>
-        - Built the frontend from scratch using PHP, Laravel, Horizon, MySQL, and Redis.<br/>
+        - Built the backend from scratch using PHP, Laravel, Horizon, MySQL, and Redis.<br/>
         - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
         - Integrated multi-language support with React i18n, including RTL handling.<br/>
         - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
@@ -221,8 +221,8 @@ export const PROJECTS: IProject[] = [
         year: 2023,
         description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
         role: `As the full-stack developer in a team of five, I: <br/>
-        - Built the backend from scratch using PHP, Laravel, Horizon, MySQL, and Redis.<br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
+        - Built the backend using PHP, Laravel, Horizon, MySQL, and Redis.<br/>
+        - Built the frontend using React, Redux, RTK Query, and Tailwind CSS.<br/>
         - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
         - Integrated multi-language support with React i18n, including RTL handling.<br/>
         - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
