@@ -55,6 +55,18 @@ export const MY_STACK = {
     ],
     backend: [
         {
+            name: 'PHP',
+            icon: '/logo/php.png',
+        },
+        {
+            name: 'Laravel',
+            icon: '/logo/laravel.png',
+        },
+        {
+            name: 'Horizon',
+            icon: '/logo/horizon.webp',
+        },
+        {
             name: 'Node.js',
             icon: '/logo/node.png',
         },
@@ -79,6 +91,10 @@ export const MY_STACK = {
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
+        },
+        {
+            name: 'Redis',
+            icon: '/logo/redis.png',
         },
         {
             name: 'Prisma',
