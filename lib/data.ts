@@ -18,6 +18,33 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
+    backend: [
+        {
+            name: 'PHP',
+            icon: '/logo/php.png',
+        },
+        {
+            name: 'Laravel',
+            icon: '/logo/laravel.png',
+        },
+        {
+            name: 'Horizon',
+            icon: '/logo/horizon.webp',
+        },
+        {
+            name: 'Node.js',
+            icon: '/logo/node.png',
+        },
+        {
+            name: 'NestJS',
+            icon: '/logo/nest.svg',
+        },
+        {
+            name: 'Express.js',
+            icon: '/logo/express.png',
+        },
+    ],
+    
     frontend: [
         {
             name: 'JavaScript',
@@ -51,32 +78,6 @@ export const MY_STACK = {
         {
             name: 'Bootstrap',
             icon: '/logo/bootstrap.svg',
-        },
-    ],
-    backend: [
-        {
-            name: 'PHP',
-            icon: '/logo/php.png',
-        },
-        {
-            name: 'Laravel',
-            icon: '/logo/laravel.png',
-        },
-        {
-            name: 'Horizon',
-            icon: '/logo/horizon.webp',
-        },
-        {
-            name: 'Node.js',
-            icon: '/logo/node.png',
-        },
-        {
-            name: 'NestJS',
-            icon: '/logo/nest.svg',
-        },
-        {
-            name: 'Express.js',
-            icon: '/logo/express.png',
         },
     ],
     database: [
@@ -220,32 +221,6 @@ export const PROJECTS: IProject[] = [
         - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
     },
     {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
-        techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
-        ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
-        images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
-        ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
-        description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
-    },
-    {
         title: 'Real Estate',
         slug: 'property-pro',
         techStack: [
@@ -272,26 +247,7 @@ export const PROJECTS: IProject[] = [
         - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
         - Enhanced user interaction with animations and transitions using Framer Motion.`,
     },
-    
-    {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/max994-dev/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
-    },
+   
 ];
 
 export const MY_EXPERIENCE = [
