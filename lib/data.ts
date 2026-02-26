@@ -13,8 +13,8 @@ export const GENERAL_INFO = {
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/max994-dev' },
     { name: 'linkedin', url: 'https://linkedin.com/in/maksym-bondarenko-b197bb394' },
-    { name: 'facebook', url: '' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    // { name: 'facebook', url: '' },
+    // { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
 ];
 
 export const MY_STACK = {
